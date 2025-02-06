@@ -14,7 +14,7 @@ export type ChildrenType = {
 const RootLayout = ({ children }: ChildrenType) => {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body data-theme="light" className="bg-gray-200">{children}</body>
     </html>
   );
 };
